@@ -32,6 +32,8 @@ public class JogoAleatorio {
 
         System.out.println("O número de tentativas até acertar foi de: " + qntdTentativa + "!");
         System.out.println("O número secreto entre de 0 até 100 para esta rodada foi " + numeroAleatorio + ".");
+        
+        texto.close();
 
     }
 }
